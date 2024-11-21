@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f6ff;
+}
+
+.education_font {
+    font-size: 13px;
+}
+
+.details_carosul {
+    margin-top: 60px;
+}
+
+.available {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.available>div {
+    text-align: center;
+    flex: 0 1 23%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .available>div {
+        flex: 0 1 45%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 576px) {
+    .available>div {
+        flex: 0 1 90%;
+        overflow: hidden;
+    }
+}
+
+.available img {
+    max-width: 100%;
+    height: auto;
+}
+
+.request_details p {
+    text-align: justify;
+}
+
+.nav_color {
+    background-color: #06a8e1;
+}
+
+.text_color {
+    color: #004aad;
+}
+
+.so_short {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+
+.so_short p {
+    margin: 0;
+}
+
+.price_details p {
+    text-align: justify;
+}
+
+.idpara ul {
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.idpara ul li {
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.price2 p {
+    text-align: justify;
+}
+
+.price2 ul li {
+    text-align: justify;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.payment .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.payment img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .payment .col-md-2 {
+        flex: 0 0 45%;
+        max-width: 45%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .payment .col-md-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.price p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .price_details ul {
+        margin: 0 15px;
+    }
+
+    .fitures_package {
+        padding: 0 15px;
+    }
+
+    .price p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .price p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .fitures_package table {
+        font-size: 0.9rem;
+    }
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.image_icon img {
+    width: 20px;
+    margin: 0 0px;
+}
+
+.image_icon2 img {
+    width: 220px;
+    height: 90px;
+    margin: 0 50px;
+}
+
+.address {
+    text-align: center;
+}
+
+.address p {
+    margin: 0;
+    line-height: 1;
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    .address p {
+        font-size: 0.9rem;
+    }
+}
