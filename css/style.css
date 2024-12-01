@@ -9,7 +9,11 @@ body {
 }
 
 .education_font {
-    font-size: 13px;
+    font-size: 14px;
+}
+
+.nav-item {
+    font-size: 14px;
 }
 
 .details_carosul {
@@ -41,6 +45,17 @@ body {
     }
 }
 
+/* .loregate_headline {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.education_font {
+    margin-top: 0;
+    line-height: 1;
+} */
+
+
 @media (max-width: 576px) {
     .available>div {
         flex: 0 1 90%;
@@ -55,6 +70,10 @@ body {
 
 .request_details p {
     text-align: justify;
+}
+
+.phone_icon i {
+    font-size: 14px;
 }
 
 .nav_color {
